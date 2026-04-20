@@ -1,0 +1,26 @@
+# Azure OpenAI Credentials
+AZURE_OPENAI_ENDPOINT=
+AZURE_OPENAI_API_KEY=
+AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4.1"
+OPENAI_API_VERSION="2024-12-01-preview"
+
+
+# Email Settings (SMTP)
+SMTP_SERVER="smtp.gmail.com"
+SMTP_PORT=587
+SENDER_EMAIL="oterademoacrisure@gmail.com"
+SENDER_PASSWORD="dohrmnauniqcanrx"
+RECIPIENT_EMAIL="bluesatheesh@gmail.com"
+ 
+# REPLACE THE BELOW WITH YOUR ACTUAL STRING FROM ATLAS
+MONGO_URI=mongodb+srv://oterademoacrisure_db_user:Otera%40123@cluster0.hxndsmy.mongodb.net/user_auth_db?retryWrites=true&w=majority
+ 
+# --- OKTA SSO (New Simulation) --- 1 month trial is expired need to renew again for secure authentication demo if we are looking... 
+OKTA_CLIENT_ID="0oazconn37XX5RHmH697"
+OKTA_CLIENT_SECRET="RbCJaysViD1uGXGA6EOCVpCBiVxqQa8XOfBEZnKCOpmnct-QZAMxe6sASRH5bwNi"
+OKTA_DOMAIN=trial-9321379.okta.com
+OKTA_ISSUER=https://trial-9321379.okta.com/oauth2/default
+
+# --- Neon PostgreSQL (Database Architecture) ---
+#postgresql://[user]:[password]@[host]:[port]/[database]?sslmode=require
+DATABASE_URL="postgresql://neondb_owner:npg_HlEW6mpNRt1Y@ep-rapid-feather-a8yhlend-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require"
