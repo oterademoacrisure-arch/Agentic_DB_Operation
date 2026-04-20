@@ -2,7 +2,18 @@
 
 ## Overview
 
-EDDI-Chatbot is an intelligent database support chatbot designed to assist with PostgreSQL database operations, including query optimization and system observability. The application consists of a backend API built with FastAPI and a frontend user interface built with React/Vite. It leverages AI agents powered by Azure OpenAI to provide intelligent responses and recommendations.
+**EDDI** stands for **"Enterprise Database Diagnostic Intelligence"** - an intelligent database support chatbot designed to assist with PostgreSQL database operations, including query optimization and system observability.
+
+### Project Description
+EDDI-Chatbot is a multi-agent AI-powered application that serves as a comprehensive database support system for enterprise environments. It combines advanced AI capabilities with database expertise to provide:
+
+- **Intelligent Query Routing**: Automatically classifies user requests and routes them to specialized agents
+- **Database Observability**: Real-time monitoring of system health, CPU usage, memory consumption, and connection pools
+- **SQL Query Optimization**: Analyzes slow queries, provides EXPLAIN plan insights, and generates optimized SQL recommendations
+- **Audit Logging**: Maintains comprehensive logs of all optimization activities in a PostgreSQL database
+- **Streaming Responses**: Real-time, interactive chat interface with status updates and streaming results
+
+The application consists of a backend API built with FastAPI and a frontend user interface built with React/Vite. It leverages AI agents powered by Azure OpenAI to provide intelligent responses and recommendations, making it an essential tool for database administrators and developers working with PostgreSQL databases.
 
 ## System Architecture
 
